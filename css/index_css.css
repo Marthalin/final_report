@@ -1,0 +1,103 @@
+body{
+	background-image: url("bg.jpg");
+  width: 1350px;
+}
+
+/*homepage*/
+#title-text{
+  margin-top: 70px;
+  font-size: 6em;
+  text-align: center;
+  font-family: Gadugi;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+
+.o{
+    width:70px;
+    position:absolute;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:5s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -moz-animation-name:orbit;
+    -moz-animation-duration:5s;
+    top:120px;
+    left:353px;
+}
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } 
+}
+@-moz-keyframes orbit { 
+from { -moz-transform:rotate(0deg) } 
+to { -moz-transform:rotate(360deg) } 
+}
+
+#chang{
+  height: 180px;
+  position: fixed;
+  top: 250px;
+  left: 580px
+}
+
+#say01{
+  margin: 50px 0 0 750px;
+}
+#say01 > h3{
+  font-size: 1.5em;
+  color: #6ACCBB;
+  text-decoration: underline;
+}
+#say01 > p{
+  color: #FFFFFF;
+}
+#blurred{
+  position: relative;
+  top: 300px;
+  opacity: 0.8;
+  width: 1350px;
+  left: -10px;
+}
+#punk{
+	width: 200px;
+	position: relative;
+	top: -200px;
+	left: 650px;
+}
+#metal{
+	width: 200px;
+	position: relative;
+	top: -180px;
+	left: 200px;
+}
+
+#planet{
+  width: 1366px;
+  margin: -500px 0 -20px -10px;
+
+}
+#say02{
+  width: 400px;
+  position: relative;
+  top: -200px;
+  left: 750px;
+  opacity: 0;
+}
+#say02 > h3{
+  font-size: 1.5em;
+  color: #6ACCBB;
+  text-decoration: underline;
+}
+#say02 > p{
+  color: #FFFFFF;
+}
+
+#hedgehog{
+  width: 250px;
+  position: absolute;
+  top: 2100px;
+  left: 800px;
+}
